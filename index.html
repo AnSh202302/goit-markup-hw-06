@@ -362,7 +362,6 @@
             digital marketing & growth solutions.
           </p>
         </div>
-
         <div class="footer-soc">
           <p class="footer-soc-title">Social media</p>
           <ul class="footer-soc-list list">
@@ -396,6 +395,12 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="footer-soc-title">Subscribe</p>
+          <form>
+            <input type="email" name="email" />
+          </form>
+        </div>
       </div>
     </footer>
     <!--Backdrop-->
@@ -406,6 +411,46 @@
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
+
+        <h3 class="modal-title">
+          Leave your contacts and we will call you back
+        </h3>
+
+        <form class="modal-form">
+          <div class="form-field">
+            <label for="name" class="form-label">Name</label>
+            <input class="form-input" type="text" name="name" id="name" />
+          </div>
+
+          <div class="form-field">
+            <label for="tel" class="form-label">Phone</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
+          </div>
+
+          <div class="form-field">
+            <label for="mail" class="form-label">Email</label>
+            <input class="form-input" type="email" name="mail" id="mail" />
+          </div>
+
+          <div class="form-field">
+            <label for="comment" class="form-label">Comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="8"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </form>
+        <div class="privacy-field">
+          <input type="checkbox" name="policy" id="privacy" />
+          <label for="privacy" class="form-privacy">
+            accept the terms and conditions of the
+            <span class="privacy">Privacy Policy</span>
+          </label>
+        </div>
+
+        <button type="submit" class="submit">Send</button>
       </div>
     </div>
     <script src="./modal.js"></script>
